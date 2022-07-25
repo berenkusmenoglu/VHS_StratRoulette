@@ -7,28 +7,23 @@
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
   </head>
-  <body>
+  <body style="background-color: black;">
     <div id="unity-container" class="unity-desktop">
       <canvas id="unity-canvas" width=960 height=600></canvas>
       <div id="unity-loading-bar">
-        <div id="unity-logo"></div>
         <div id="unity-progress-bar-empty">
           <div id="unity-progress-bar-full"></div>
         </div>
       </div>
       <div id="unity-warning"> </div>
-      <div id="unity-footer">
-        <div id="unity-webgl-logo"></div>
-        <div id="unity-fullscreen-button"></div>
-        <div id="unity-build-title">VideoHorrorSociety_StratRoulette</div>
-      </div>
     </div>
     <script>
+     
       var container = document.querySelector("#unity-container");
       var canvas = document.querySelector("#unity-canvas");
       var loadingBar = document.querySelector("#unity-loading-bar");
       var progressBarFull = document.querySelector("#unity-progress-bar-full");
-      var fullscreenButton = document.querySelector("#unity-fullscreen-button");
+      //var fullscreenButton = document.querySelector("#unity-fullscreen-button");
       var warningBanner = document.querySelector("#unity-warning");
 
       // Shows a temporary message banner/ribbon for a few seconds, or
@@ -38,6 +33,7 @@
       // way that non-critical warnings and error messages are presented to the
       // user.
       function unityShowBanner(msg, type) {
+        return;
         function updateBannerVisibility() {
           warningBanner.style.display = warningBanner.children.length ? 'block' : 'none';
         }
@@ -56,15 +52,15 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/Build.loader.js";
+      var loaderUrl = buildUrl + "/VideoHorrorSociety_StratRoulette.loader.js";
       var config = {
-        dataUrl: buildUrl + "/Build.data",
-        frameworkUrl: buildUrl + "/Build.framework.js",
-        codeUrl: buildUrl + "/Build.wasm",
+        dataUrl: buildUrl + "/VideoHorrorSociety_StratRoulette.data.unityweb",
+        frameworkUrl: buildUrl + "/VideoHorrorSociety_StratRoulette.framework.js.unityweb",
+        codeUrl: buildUrl + "/VideoHorrorSociety_StratRoulette.wasm.unityweb",
         streamingAssetsUrl: "StreamingAssets",
-        companyName: "DefaultCompany",
+        companyName: "Hellbent Games",
         productName: "VideoHorrorSociety_StratRoulette",
-        productVersion: "1.0",
+        productVersion: "0.1",
         showBanner: unityShowBanner,
       };
 
@@ -82,8 +78,10 @@
         config.devicePixelRatio = 1;
         unityShowBanner('WebGL builds are not supported on mobile devices.');
       } else {
-        canvas.style.width = "960px";
-        canvas.style.height = "600px";
+        //bodyStyle.style.backgroundColor = "black";
+        var myWidth = document.innerWidth;
+        canvas.style.width = myWidth + "px";
+        canvas.style.height = "900px";
       }
       loadingBar.style.display = "block";
 
@@ -94,9 +92,9 @@
           progressBarFull.style.width = 100 * progress + "%";
         }).then((unityInstance) => {
           loadingBar.style.display = "none";
-          fullscreenButton.onclick = () => {
-            unityInstance.SetFullscreen(1);
-          };
+          // fullscreenButton.onclick = () => {
+          //   unityInstance.SetFullscreen(1);
+          // };
         }).catch((message) => {
           alert(message);
         });
