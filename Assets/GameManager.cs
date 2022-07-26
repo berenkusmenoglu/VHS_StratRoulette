@@ -9,10 +9,20 @@ public enum EDifficulty
 {
     NONE,
     Easy,
-    Normal,
+    Medium,
     Hard,
     Expert,
     Roby,
+    COUNT
+}
+
+
+public enum ESide
+{
+    NONE,
+    Teen,
+    Monster,
+    Both,
     COUNT
 }
 
@@ -30,6 +40,11 @@ public struct Strategy
         this.Title = title;
         this.Description = desc;
         this.Difficulty = diff;
+    }
+
+    public override string ToString()
+    {
+        return Title + " " + Description + " " + Difficulty;
     }
 }
 
@@ -65,7 +80,7 @@ public class GameManager : MonoBehaviour
 
     public void OnTeenPressed()
     {
-        EDifficulty chosenDiff = (EDifficulty)(DifficultyDropdown.value+1);
+        EDifficulty chosenDiff = (EDifficulty)(DifficultyDropdown.value + 1);
 
         IEnumerable<Strategy> strategiesWithDiff = teenStrategies.Where(Strategy => Strategy.Difficulty == chosenDiff);
 
@@ -74,7 +89,7 @@ public class GameManager : MonoBehaviour
         Strategy randomStrat = new Strategy("", "", EDifficulty.NONE);
 
         int i = 0;
-        foreach(Strategy strat in strategiesWithDiff)
+        foreach (Strategy strat in strategiesWithDiff)
         {
             if (i == randomIndex)
             {
@@ -111,5 +126,15 @@ public class GameManager : MonoBehaviour
 
         StratTitle.text = randomStrat.Title;
         StratDescription.text = randomStrat.Description;
+    }
+
+
+    public void SetStrats(List<Strategy> TeenStrategies, List<Strategy> MonsterStrategies)
+    {
+        teenStrategies.Clear();
+        monsterStrategies.Clear();
+
+        teenStrategies = TeenStrategies;
+        monsterStrategies = MonsterStrategies;
     }
 }

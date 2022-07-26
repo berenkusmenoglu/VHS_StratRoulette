@@ -1537,7 +1537,7 @@ MonoBehaviour:
     Description: You must fail every timing skill check.
     Difficulty: 2
   - Title: In Plain Sight
-    Description: You are not allwoed to crouch for the entire duration of the game.
+    Description: You are not allowed to crouch for the entire duration of the game.
     Difficulty: 1
   - Title: The Solo Queue
     Description: You can only self heal. You are allowed to use the staff to self
@@ -1547,7 +1547,7 @@ MonoBehaviour:
     Description: Play without audio.
     Difficulty: 3
   - Title: The VIP
-    Description: Pick a  teammate, they are the only one who can get the stigma hits.
+    Description: Pick a teammate, they are the only one who can get the stigma hits.
       The rest of you can only craft stun weapons.
     Difficulty: 4
   monsterStrategies:
@@ -1556,6 +1556,8 @@ MonoBehaviour:
     Difficulty: 5
   - Title: The Kenzo
     Description: You can only down teens if all teens are injured or if you are enraged.
+      You can also hit teens in lockers. If you break the rules you have to give
+      up a stigma.
     Difficulty: 4
   - Title: The WARTyard
     Description: Playing WART on hotel or high school, you must win the match without
