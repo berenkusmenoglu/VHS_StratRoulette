@@ -5,7 +5,7 @@ using UnityEditor;
 using UnityEngine.UIElements;
 using System.IO;
 
-[CustomEditor(typeof(GameManager))]
+//[CustomEditor(typeof(GameManager))]
 public class StratImporter : Editor
 {
     public List<Strategy> TranslateCSV(string fileName, ESide side )
@@ -33,7 +33,7 @@ public class StratImporter : Editor
                 ESide sideEnum = (ESide)System.Enum.Parse(typeof(ESide), dataValues[0], true);
                 if(sideEnum == side)
                 {
-                    Strategy strat = new Strategy(dataValues[2], dataValues[3], difficulty);
+                    Strategy strat = new Strategy(dataValues[2].Replace(';',','), dataValues[3].Replace(';', ','), difficulty);
                     stratList.Add(strat);
                 }
                 

@@ -1518,80 +1518,162 @@ MonoBehaviour:
   StratDescription: {fileID: 1030707478}
   DifficultyDropdown: {fileID: 1935587672}
   teenStrategies:
-  - Title: The etep
-    Description: You are not allowed to use the run button, you are allowed to use
-      clash colas, and benefit from any other from of speed boost.
-    Difficulty: 4
-  - Title: Pile Up
-    Description: Teen can only banish the monster when all other teens are firing
-      their weapons at the monster.
-    Difficulty: 4
-  - Title: Freeze Tag
-    Description: After banishing the monster, freeze until they respawn.
+  - Title: The Sam
+    Description: You cannot move until you say out loud (in voice chat) a pun related
+      to the stigma you just used to stun / kill
     Difficulty: 1
-  - Title: Rift Race
-    Description: Teens can't build weapons and can only land Super Rift stigmas on
-      the monster.
-    Difficulty: 4
-  - Title: The Bruh
-    Description: You must fail every timing skill check.
-    Difficulty: 2
-  - Title: In Plain Sight
-    Description: You are not allowed to crouch for the entire duration of the game.
-    Difficulty: 1
-  - Title: The Solo Queue
-    Description: You can only self heal. You are allowed to use the staff to self
-      heal as well as the medkits on the map.
-    Difficulty: 2
-  - Title: Who Said That
-    Description: Play without audio.
+  - Title: The Karam
+    Description: Need to hit the monster in 3 sec after crafting a weapon, if 3 sec
+      pass, discard the weapon and build another
     Difficulty: 3
-  - Title: The VIP
-    Description: Pick a teammate, they are the only one who can get the stigma hits.
-      The rest of you can only craft stun weapons.
+  - Title: What are stairs?
+    Description: You must stay on the floor level you spawn on.
+    Difficulty: 2
+  - Title: One Trick Pony
+    Description: Before the game starts pick 1 weapon, You can only craft the chosen
+      weapon and nothing else.
+    Difficulty: 2
+  - Title: Hot Potato
+    Description: If someone gives you an item, give it back.
+    Difficulty: 1
+  - Title: The Munchies
+    Description: If you find a consumable on the ground or see a active vending machine
+      you must pick up the consumable and eat it.
+    Difficulty: 1
+  - Title: Overdue fees
+    Description: You must find the book of the dead and obtain it before the match
+      ends.
+    Difficulty: 2
+  - Title: Is that a reference?
+    Description: You can only traverse the map with your back to a wall.
     Difficulty: 4
+  - Title: Frozen in Fear
+    Description: If one teen is hit, all teens must stop moving for 5 seconds.
+    Difficulty: 3
+  - Title: Movie Buff
+    Description: You can only communicate in Comms with the phrases from popular
+      films
+    Difficulty: 1
+  - Title: No time to die
+    Description: Only running allowed
+    Difficulty: 2
+  - Title: Franklin's Demise
+    Description: If a monster hits you while you have a weapon and/or item you must
+      dispose of that weapon and/or item
+    Difficulty: 3
+  - Title: Crafting Roulette
+    Description: If you dont land a perfect skill check, switch to the next available
+      crafting station.
+    Difficulty: 2
+  - Title: Cooties
+    Description: '"You cannot do anything that involves directly or indirectly touching
+      another teen - this includes healing others, letting others heal you, handing
+      items to others, or crafting at the same station as another teen. '
+    Difficulty: 1
+  - Title: The Sauce Boss
+    Description: You may only craft molotovs this game.
+    Difficulty: 1
+  - Title: Buddy System
+    Description: 'You must seek out and be with another teen at all times. '
+    Difficulty: 2
+  - Title: Main Tank
+    Description: If possible you must try to take hits for other teens.
+    Difficulty: 2
+  - Title: Double Tap
+    Description: When you take a stigma you must stun the monster with the same stigma
+      type before you can craft a different stigma type.
+    Difficulty: 1
+  - Title: Greedy Goblin
+    Description: When you find a pick-up, be it the floor, vending machine, you must
+      pick it up and create a secret stash somewhere on the map of your collected
+      loot.
+    Difficulty: 1
+  - Title: All eyes on you
+    Description: Only one teen can craft a non-curse stigma at a time if the monster
+      is not yet killed with that stigma. Everyone else needs to craft Eye weapons.
+      All curse stigmas crafted need to be Eye.
+    Difficulty: 1
+  - Title: Point and Click Adventure
+    Description: you cannot move unless you ping and you have to move to where you
+      pinged.
+    Difficulty: 1
+  - Title: Leeroy Jenkins
+    Description: while you are trying to take a stigma you must shout 'Leeroooooooy
+      Jenkins!'
+    Difficulty: 1
+  - Title: The Lure
+    Description: Be a decoy for other teens and use your body to lure the monster
+      into ambushes
+    Difficulty: 1
+  - Title: Painfully Punny
+    Description: After finishing crafting a weapon make a pun related to that weapon,
+      If you can't, dispose of that weapon.
+    Difficulty: 2
+  - Title: Peer Pressure
+    Description: 'If you see another teen do an emote you must instantly do the same
+      emote. If you don''t have that emote you must do another emote. '
+    Difficulty: 1
+  - Title: The Quitter
+    Description: 'If you fail at a crafting station you have to abandon that station
+      and craft somewhere else '
+    Difficulty: 1
+  - Title: Trash Bandit
+    Description: If you spot a searchable trash can you must immeditately search
+      it
+    Difficulty: 1
+  - Title: Bank Shot
+    Description: You can only try hit the monster with indirect fire bombs off the
+      ceiling or walls
+    Difficulty: 2
   monsterStrategies:
-  - Title: The Beren
-    Description: Play werewolf using a steering wheel.
-    Difficulty: 5
   - Title: The Kenzo
     Description: You can only down teens if all teens are injured or if you are enraged.
       You can also hit teens in lockers. If you break the rules you have to give
       up a stigma.
-    Difficulty: 4
-  - Title: The WARTyard
-    Description: Playing WART on hotel or high school, you must win the match without
-      leaving the courtyard. In facility use the Test Chamber instead.
     Difficulty: 3
-  - Title: The Weapon's Expert
-    Description: Play as WART with detect. Only engage teens if all of the mare armed
-      or whenever they choose to push you.
+  - Title: Lost my keys
+    Description: You must open every locker you pass by.
+    Difficulty: 4
+  - Title: 'Easily Distracted '
+    Description: If you're chasing a teen and you see another teen you must switch
+      targets and chase the new teen.
     Difficulty: 2
-  - Title: Who Said That
-    Description: Play without audio.
-    Difficulty: 3
-  - Title: You Spin me Right round baby
-    Description: You are only allowed to rotate your camera to the right. For example
-      if you need to look to your left you need do a 270 degree turn to the right.
-    Difficulty: 4
-  - Title: Look Ma no abilities
-    Description: You are not allowed to use any of your abilities.
-    Difficulty: 3
-  - Title: Cooldown Juggle
-    Description: 'You can only use your abilities in order. For default key bindigs:
-      Q -> E -> F and repeat.'
-    Difficulty: 3
-  - Title: The AFK
-    Description: 'As the Dollmaster you are not allowed to move your body. You can
-      use your dolls to move around and you are able to teleport. '
+  - Title: Red light Green light
+    Description: You cannot move if a teen is facing you, with line of sight.
     Difficulty: 5
-  - Title: Ouch ouch ouch
-    Description: You are only allowed to hit teens while you're being damaged.
-    Difficulty: 3
-  - Title: The Attention Seeker
-    Description: You have to emote every time you're revealed. You can spin your
-      camera if you don't have an emote equipped.
+  - Title: Roshambo
+    Description: You can only attack while being attacked.
+    Difficulty: 4
+  - Title: I got you! diagonally!
+    Description: You can only travel in diagonal lines
+    Difficulty: 2
+  - Title: Back where we started
+    Description: You can only respawn in your original spawn point after each stigma
+      kill
+    Difficulty: 2
+  - Title: Method Actor
+    Description: As Werewolf, if you howl in the game you must howl in real life
     Difficulty: 1
+  - Title: 'I''m  Allergic '
+    Description: Before the game starts, Pick a random Stigma type, you cannot attack
+      a teen who has a weapon of the chosen stigma.
+    Difficulty: 2
+  - Title: Medical Neutrality
+    Description: 'Do not attack teens while they are healing. '
+    Difficulty: 3
+  - Title: Limited Ammunition
+    Description: You may only attack 10 times, ammo replenishes if you lose a stigma.
+    Difficulty: 3
+  - Title: '"""Its visions based on movement"""'
+    Description: Do not attack teens who are standing still, and pretend you cannot
+      see them.
+    Difficulty: 2
+  - Title: Victory Lap
+    Description: After killing a teen perform a full circuit of the map.
+    Difficulty: 1
+  - Title: Naughty list
+    Description: You must down teens in alphabetical order
+    Difficulty: 2
 --- !u!1 &876688380
 GameObject:
   m_ObjectHideFlags: 0
