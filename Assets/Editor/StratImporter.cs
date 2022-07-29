@@ -5,7 +5,7 @@ using UnityEditor;
 using UnityEngine.UIElements;
 using System.IO;
 
-//[CustomEditor(typeof(GameManager))]
+[CustomEditor(typeof(GameManager))]
 public class StratImporter : Editor
 {
     public List<Strategy> TranslateCSV(string fileName, ESide side )
@@ -22,7 +22,11 @@ public class StratImporter : Editor
                 endOfFile = true;
                 break;
             }
-            var dataValues = dataString.Split(',');
+            string[] dataValues = dataString.Split(',');
+            if(dataValues.Length == 0)
+            {
+                continue;
+            }
             // side
             // diff
             // title

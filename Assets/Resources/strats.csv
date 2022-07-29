@@ -1,52 +1,82 @@
-Side,Difficulty,Title,Description,
-MONSTER,HARD,The Kenzo,You can only down teens if all teens are injured or if you are enraged. You can also hit teens in lockers. If you break the rules you have to give up a stigma.,
-TEEN,EASY,The Sam,You cannot move until you say out loud (in voice chat) a pun related to the stigma you just used to stun / kill,
-TEEN,HARD,The Karam,Need to hit the monster in 3 sec after crafting a weapon; if 3 sec pass; discard the weapon and build another,
-TEEN,MEDIUM,What are stairs?,You must stay on the floor level you spawn on.,
-TEEN,MEDIUM,One Trick Pony,Before the game starts pick 1 weapon; You can only craft the chosen weapon and nothing else.,
-TEEN,EASY,Hot Potato,If someone gives you an item; give it back.,
-BOTH,MEDIUM,Phase Clan,you can only attack after performing a full 360 with the camera.,
-BOTH,EASY,What's up?,While traversing the map you have to be looking at the ceiling the entire time. (You can look around as long as youre standing still.),
-MONSTER,EXPERT,Lost my keys,You must open every locker you pass by.,
-TEEN,EASY,The Munchies,If you find a consumable on the ground or see a active vending machine you must pick up the consumable and eat it.,
-BOTH,EASY,Stiff knees,you cannot use vaults.,
-TEEN,MEDIUM,Overdue fees,You must find the book of the dead and obtain it before the match ends.,
-TEEN,EXPERT,Is that a reference?,You can only traverse the map with your back to a wall.,
-MONSTER,MEDIUM,Easily Distracted ,If you're chasing a teen and you see another teen you must switch targets and chase the new teen.,
-BOTH,MEDIUM,Paper Trail,you must constantly place stickers as you play.,
-TEEN,HARD,Frozen in Fear,If one teen is hit; all teens must stop moving for 5 seconds.,
-MONSTER,ROBY,Red light Green light,You cannot move if a teen is facing you; with line of sight.,
-MONSTER,EXPERT,Roshambo,You can only attack while being attacked.,
-TEEN,EASY,Movie Buff,You can only communicate in Comms with the phrases from popular films,
-TEEN,MEDIUM,No time to die,Only running allowed,
-TEEN,HARD,Franklin's Demise,If a monster hits you while you have a weapon and/or item you must dispose of that weapon and/or item,
-TEEN,MEDIUM,Crafting Roulette,If you dont land a perfect skill check; switch to the next available crafting station.,
-TEEN,EASY,Cooties,"You cannot do anything that involves directly or indirectly touching another teen - this includes healing others; letting others heal you; handing items to others; or crafting at the same station as another teen. 
-This does not include picking up downed teens (yourself or other teens).",
-MONSTER,MEDIUM,I got you! diagonally!,You can only travel in diagonal lines,
-BOTH,EXPERT,Moon Walker,you can only move backwards to travel,
-MONSTER,MEDIUM,Back where we started,You can only respawn in your original spawn point after each stigma kill,
-TEEN,EASY,The Sauce Boss,You may only craft molotovs this game.,This should have the caveat *unless all other teens are dead
-MONSTER,EASY,Method Actor,As Werewolf; if you howl in the game you must howl in real life,
-TEEN,MEDIUM,Buddy System,You must seek out and be with another teen at all times. ,
-MONSTER,,,,
-MONSTER,MEDIUM,I'm  Allergic ,Before the game starts; Pick a random Stigma type; you cannot attack a teen who has a weapon of the chosen stigma.,
-BOTH,HARD,Agoraphobia,You must avoid wide open spaces; and cannot travel outdoors.,
-MONSTER,HARD,Medical Neutrality,Do not attack teens while they are healing. ,
-MONSTER,HARD,Limited Ammunition,You may only attack 10 times; ammo replenishes if you lose a stigma.,
-MONSTER,MEDIUM,"""Its visions based on movement""",Do not attack teens who are standing still; and pretend you cannot see them.,
-MONSTER,EASY,Victory Lap,After killing a teen perform a full circuit of the map.,
-BOTH,EASY,The Erick,Play with your mouse on 2500 DPI or more,
-MONSTER,MEDIUM,Naughty list,You must down teens in alphabetical order,
-TEEN,MEDIUM,Main Tank,If possible you must try to take hits for other teens.,
-TEEN,EASY,Double Tap,When you take a stigma you must stun the monster with the same stigma type before you can craft a different stigma type.,
-TEEN,EASY,Greedy Goblin,When you find a pick-up; be it the floor; vending machine; you must pick it up and create a secret stash somewhere on the map of your collected loot.,
-TEEN,EASY,All eyes on you,Only one teen can craft a non-curse stigma at a time if the monster is not yet killed with that stigma. Everyone else needs to craft Eye weapons. All curse stigmas crafted need to be Eye.,
-TEEN,EASY,Point and Click Adventure,you cannot move unless you ping and you have to move to where you pinged.,
-TEEN,EASY,Leeroy Jenkins,while you are trying to take a stigma you must shout 'Leeroooooooy Jenkins!',
-TEEN,EASY,The Lure,Be a decoy for other teens and use your body to lure the monster into ambushes,
-TEEN,MEDIUM,Painfully Punny,After finishing crafting a weapon make a pun related to that weapon; If you can't; dispose of that weapon.,
-TEEN,EASY,Peer Pressure,If you see another teen do an emote you must instantly do the same emote. If you don't have that emote you must do another emote. ,
-TEEN,EASY,The Quitter,If you fail at a crafting station you have to abandon that station and craft somewhere else ,
-TEEN,EASY,Trash Bandit,If you spot a searchable trash can you must immeditately search it,
-TEEN,MEDIUM,Bank Shot,You can only try hit the monster with indirect fire bombs off the ceiling or walls,
+Side,Difficulty,Title,Description
+MONSTER,HARD,The Kenzo,You can only down teens if all teens are injured or if you are enraged. You can also hit teens in lockers. If you break the rules you have to give up a stigma.
+TEEN,EASY,The Sam,You cannot move until you say out loud (in voice chat) a pun related to the stigma you just used to stun / kill
+TEEN,HARD,The Karam,Need to hit the monster in 3 sec after crafting a weapon; if 3 sec pass; discard the weapon and build another
+MONSTER,ROBY,The Beren,As werewolf use a steering wheel and pedals.
+TEEN,MEDIUM,What are stairs?,You must stay on the floor level you spawn on.
+TEEN,MEDIUM,One Trick Pony,Before the game starts pick 1 weapon; You can only craft the chosen weapon and nothing else.
+TEEN,EASY,Hot Potato,If someone gives you an item; give it back.
+BOTH,MEDIUM,Phase Clan,You can only attack after performing a full 360 with the camera.
+BOTH,EASY,What's up?,While traversing the map you have to be looking at the ceiling the entire time. (You can look around as long as youre standing still.)
+MONSTER,EASY,Lost my keys,You must open every locker you pass by.
+TEEN,EASY,The Munchies,If you find a consumable on the ground or see a active vending machine you must pick up the consumable and eat it.
+BOTH,EASY,Stiff knees,You cannot use vaults.
+TEEN,MEDIUM,Overdue fees,You must find the book of the dead and obtain it before the match ends.
+TEEN,EXPERT,Is that a reference?,You can only traverse the map with your back to a wall.
+MONSTER,MEDIUM,Easily Distracted ,If you're chasing a teen and you see another teen you must switch targets and chase the new teen.
+BOTH,MEDIUM,Paper Trail,You must constantly place stickers as you play.
+TEEN,MEDIUM,Frozen in Fear,If one teen is hit; all teens must stop moving for 5 seconds.
+MONSTER,ROBY,Red light Green light,You cannot move if a teen is facing you; with line of sight.
+MONSTER,EXPERT,Roshambo,You can only attack while being attacked.
+TEEN,EASY,Movie Buff,You can only communicate in Comms with the phrases from popular films
+TEEN,HARD,Franklin's Demise,If a monster hits you while you have a weapon and/or item you must dispose of that weapon and/or item
+TEEN,MEDIUM,Crafting Roulette,If you dont land a perfect skill check; switch to the next available crafting station.
+TEEN,EASY,Cooties,You cannot do anything that involves directly or indirectly touching another teen - this includes healing others; letting others heal you; handing items to others; or crafting at the same station as another teen. This does not include picking up downed teens (yourself or other teens).
+MONSTER,MEDIUM,I got you! diagonally!,You can only travel in diagonal lines
+BOTH,EXPERT,Moon Walker,You can only move backwards to travel
+MONSTER,MEDIUM,Back where we started,You can only respawn in your original spawn point after each stigma kill
+TEEN,HARD,The Sauce Boss,You may only craft molotovs this game. Unless all other teens are dead.
+MONSTER,EASY,Method Actor,As Werewolf; if you howl in the game you must howl in real life
+MONSTER,EASY,Full Controller Support,If you use keyboard and mouse swap to a controller; if you use a controller swap to keyboard and mouse.
+TEEN,MEDIUM,Buddy System,You must seek out and be with another teen at all times. No matter what.
+MONSTER,MEDIUM,I'm  Allergic ,Before the game starts; Pick a random Stigma type; you cannot attack a teen who has a weapon of the chosen stigma.
+MONSTER,HARD,Medical Neutrality,Do not attack teens while they are healing. 
+MONSTER,HARD,Limited Ammunition,You may only attack 10 times; ammo replenishes if you lose a stigma.
+MONSTER,EASY,Victory Lap,After killing a teen perform a full circuit of the map.
+BOTH,EASY,The Erick,Play with your mouse on 2500 DPI or more
+MONSTER,MEDIUM,Naughty list,You must hit teens in alphabetical order; after hitting one teen move on to the next teen in the alphabetical order.
+TEEN,MEDIUM,Main Tank,If possible you must try to take hits for other teens.
+TEEN,EASY,Double Tap,When you take a stigma you must stun the monster with the same stigma type before you can craft a different stigma type.
+TEEN,EASY,Greedy Goblin,When you find a pick-up; be it the floor; vending machine; you must pick it up and create a secret stash somewhere on the map of your collected loot.
+TEEN,EASY,All eyes on you,Only one teen can craft a non-curse stigma at a time if the monster is not yet killed with that stigma. Everyone else needs to craft Eye weapons. All curse stigmas crafted need to be Eye.
+TEEN,EASY,Point and Click Adventure,You cannot move unless you ping and you have to move to where you pinged.
+TEEN,EASY,Leeroy Jenkins,while you are trying to take a stigma you must shout 'Leeroooooooy Jenkins!'
+TEEN,EASY,The Lure,Be a decoy for other teens and use your body to lure the monster into ambushes; you are not allowed to craft weapons as long as you have teammates.
+TEEN,MEDIUM,Painfully Punny,After finishing crafting a weapon make a pun related to that weapon; If you can't; dispose of that weapon.
+TEEN,EASY,Peer Pressure,If you see another teen do an emote you must instantly do the same emote. If you don't have that emote you must do another emote. 
+TEEN,MEDIUM,The Quitter,If you fail at a crafting station you have to abandon that station and craft somewhere else 
+TEEN,EASY,Trash Bandit,If you spot a searchable trash can you must immeditately search it
+TEEN,MEDIUM,Bank Shot,You can only try hit the monster with indirect fire bombs off the ceiling or walls
+MONSTER,MEDIUM,Squid Game,Once the rift spawns; you must drop whatever you're doing to protect it from teens. You cannot claim the rift yourself or do anything to make it despawn faster. If you are unsuccessful; you need to remain frozen until the end of your exposed duration.
+MONSTER,HARD,The ol' Switcharoo,As Dollmaster you may only use your teleport aggressively (doll indicator must be yellow)
+TEEN,MEDIUM,Karaoke,You can only communicate in comms with phrases from movies or broadway shows
+TEEN,MEDIUM,Source: Dude Just Trust Me,All the Voice Chat callouts you say must be incorrect
+TEEN,ROBY,I'm Just Short,You can only move while crouching
+BOTH,EXPERT,Pixel,You must play with the HUD disabled in the settings
+TEEN,HARD,What Doesn't Kill You,You can only craft weapons while Injured
+TEEN,HARD,I Can Do This All Day,You can only attack the Monster while Injured
+TEEN,MEDIUM,Tis but a Scratch,You cannot attack the Monster until you have been hit at least once
+BOTH,EXPERT,W Gamer,You can only move by holding forwards. You must always be moving forwards when not doing an action
+BOTH,ROBY,Deafened,"Set the ""Master Volume"" to zero in the settings"
+TEEN,MEDIUM,ABP,(Team) The Teens are not allowed to communicate with Voice Chat and must only use Pings
+BOTH,EXPERT,The Crab,"You can only use the ""A"" and ""D"" movement keys"
+TEEN,EXPERT,I Work Alone,You must avoid being in the same room as another Teen (room labels)
+TEEN,MEDIUM,Top Shelf,"You can only craft the ""Tier 3"" weapons. (Solar Flare; Holy Staff; Enigma; and Shock Sphere)"
+MONSTER,HARD,Adrenaline Rush,All Teens must be hit at least 3 times before killing anyone
+TEEN,EXPERT,Transmuted,You can only craft the Solar Flare
+MONSTER,HARD,You Didn't Need That Right?,You are not allowed to use your third ability
+MONSTER,EXPERT,Body Master,As Doll Master; you can never take possession of any Dolls
+MONSTER,MEDIUM,Copycat,If you see a Teen emoting; you must immediately emote at least once
+TEEN,HARD,Take the Hit!,When being chased by the Monster; you must lead them to another Teen
+MONSTER,ROBY,The Comeback,You can only start attacking the Teens after being wounded down to 1 stigma
+MONSTER,EXPERT,All or Nothing,If you lose a Stigma to a wound; you must let the Teens win
+MONSTER,HARD,Head Start,You cannot move for the first 30 seconds of the match
+TEEN,HARD,Introvert,You cannot enter the Courtyard on Hotel and Highschool; and cannot enter the Lobby on Facility
+TEEN,EASY,Oh Boy...,Everyone has to speak with a foreign accent of their choice.
+TEEN,HARD,Too Stunned To Speak,The Monster must be stunned before anyone is allowed to take a stigma (excluding the first hit)
+TEEN,EXPERT,I Got This,Once you start firing a weapon; you are not allowed to stop until it runs out
+TEEN,MEDIUM,Can't Stop Won't Stop,You must be running at all times (unless stopped by an action)
+TEEN,EASY,Ditto,Choose a player; you must attempt to copy that player's actions at all times
+MONSTER,MEDIUM,Oh No You Didn't,Whenever you are hit by a stigma; the player that hit you must be the next one you hit
+MONSTER,ROBY,Go My Children,Play as Dollmaster; you are not allowed to move with your body. You can use dolls to move your traps and you are allowed to teleport.
+MONSTER,MEDIUM,Leap Frog,Play as WART; you can only hit teens mid leap.
